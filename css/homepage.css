@@ -1,0 +1,296 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC';
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+sub {
+    vertical-align: sub;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+/* 
+* {
+    outline: solid 1px black;
+} */
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 100px;
+}
+
+.container h2 {
+    margin-bottom: 104px;
+}
+
+.container h3 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.footer-plan {
+    background-image: url(../images/home_footer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 503px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.footer {
+    text-align: center;
+    background: #F5F5F5;
+}
+
+.card {
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 0px;
+}
+
+.card-body {
+    padding: 0;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+
+p.card-title {
+    font-weight: bold;
+}
+
+.card-subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.btn-blue {
+    background: #56C4C5 0% 0% no-repeat padding-box;
+    border: 1px solid #56C4C5;
+    font-size: 18px;
+    padding: 0 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.btn-red {
+    border: 0px;
+    background: #FF5D50 0% 0% no-repeat padding-box;
+    font-size: 16px;
+}
+
+.feedback {
+    width: 33%;
+    position: relative;
+    font-size: 16px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+}
+
+.feedback .card-body {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.feedback .user {
+    width: 80px;
+    box-shadow: 0px 2px 10px #00000014;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    left: 32px;
+    top: -56px;
+}
+
+.rate img {
+    width: 16px;
+    margin-left: 4px;
+    margin-right: 4px;
+
+}
+.feature{
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+
+    margin-bottom: 28px;
+    margin-right: 32px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+
+}
+.icon img{
+    width: 52px;
+    height: 52px;
+}
+
+.content{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.situation{
+    max-width: 23%;
+    padding: 0;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    text-align: center;
+}
+.situation img{
+    border-radius: 12px 12px 0px 0px;
+}
+.situation h6{
+    color: #56C4C5;
+}
+.platform{
+    max-width: 30%;
+    text-align: center;
+}
+.platform img{
+    max-width: 90px;
+    margin: auto;
+}
+.platform h5{
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    font-size: 24px;
+}
+.platform p{
+    color: #747474;
+}
+.banner img{
+    max-width: 534px;
+}
+.banner h4{
+    color: #56C4C5;
+}
+.banner-content{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar-brand img{
+    margin-left: 142px;
+    max-height: 40px;
+}
+.navbar .btn-red{
+    margin-right: 140px;
+}
+.header{
+    background: url(../images/bg_home.svg)0% 0% no-repeat padding-box;
+    background-position-x: 515px;
+    left: 516px;
+}
+@media(max-width:992px){
+
+    .content{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    
+}
+@media(max-width:576px) {
+    .container{
+        max-width: 300px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 100px;
+    }
+    .footer-plan {
+        height: 461px;
+        background-image: url(../images/footer_sm.svg);
+    }
+
+    .feedback {
+        width: 100%;
+    }
+    .situation{
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+    .platform{
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+    .platform img{
+        max-width: 60px;
+    }
+
+    .banner .row{ 
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .navbar{
+        border-bottom: 2px solid #FFD153;
+        margin-bottom: 32px;
+    }
+    .navbar img{
+        max-height: 24px;
+        margin-left: 20px;
+    }
+    .navbar .btn-red{
+        margin-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 32px;
+        padding-right:32px;
+    }
+    .header{
+        background: url(../images/bg_home_sm.svg) 0% 0% no-repeat padding-box;
+        background-position: 50px 300px;
+  
+        
+       
+    }
+    
+    
+
+    
+   
+}
+
