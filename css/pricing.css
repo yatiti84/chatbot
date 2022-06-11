@@ -71,20 +71,9 @@ ul {
 }
 
 .banner {
+    padding: 92px 0 180px;
+    margin-bottom: 100px;
     margin-left: 140px;
-}
-
-.banner img {
-    max-width: 534px;
-}
-
-.banner h4 {
-    color: #56C4C5;
-}
-
-.banner-content {
-    margin-top: 92px;
-    margin-bottom: auto;
 }
 
 .navbar-brand img {
@@ -97,10 +86,9 @@ ul {
 }
 
 .header {
-    height: 560px;
-    background: url(../images/banner.svg)0% 0% no-repeat padding-box;
-    background-position-x: 515px;
-    left: 516px;
+    background: url(../images/banner.svg) 0% 0% no-repeat padding-box;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
 }
 
 
@@ -307,7 +295,7 @@ ul {
     text-align: start;
 }
 
-@media(max-width:767px){
+@media(max-width:767px) {
     .plan-detail {
         flex-direction: column;
         align-items: center;
@@ -366,7 +354,7 @@ ul {
         padding-right: 32px;
     }
 
-    .banner {
+    .header {
         margin-left: 0;
         height: 495px;
         background: url(../images/banner_sm.svg) 0% 0% no-repeat padding-box;
@@ -399,6 +387,7 @@ ul {
         width: 80%;
         margin: 0 auto 32px;
     }
+
     .plan-detail>div {
         width: 100%;
     }

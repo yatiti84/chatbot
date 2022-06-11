@@ -45,7 +45,6 @@ p {
 
 .container h3 {
     font-size: 32px;
-    text-align: center;
 }
 
 .footer-plan {
@@ -55,8 +54,7 @@ p {
     background-size: cover;
     height: 503px;
     text-align: center;
-    display: flex;
-    align-items: center;
+    padding-top: 260px;
 
 }
 
@@ -222,7 +220,7 @@ p.card-title {
 .header{
     background: url(../images/bg_home.svg)0% 0% no-repeat padding-box;
     background-position-x: 515px;
-    left: 516px;
+    right: 0;
 }
 @media(max-width:992px){
 
