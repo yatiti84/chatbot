@@ -314,6 +314,15 @@ ul {
         width: 60%;
         margin: 0 auto 32px;
     }
+    .people {
+        justify-content: flex-start;
+        overflow: scroll;
+    }
+    .people a {
+        width: 130px;
+        text-align: center;
+        padding: 12px 25px;
+    }
 }
 
 
@@ -372,16 +381,9 @@ ul {
         bottom: 7%;
     }
 
-    .people {
-        justify-content: flex-start;
-        overflow: scroll;
-    }
+    
 
-    .people a {
-        width: 130px;
-        text-align: center;
-        padding: 12px 25px;
-    }
+    
 
     .plan-features {
         width: 80%;
